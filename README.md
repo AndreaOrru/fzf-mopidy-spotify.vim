@@ -1,1 +1,1 @@
-# fzf-spotify.vim
+# fzf-mopidy-spotify.vim
