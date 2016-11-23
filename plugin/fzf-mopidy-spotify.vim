@@ -4,28 +4,28 @@
 " License:  BSD 2-clause
 
 function! s:MpcAdd(line)
-    let file = split(a:line)[0]
-    silent execute "!mpc add " . file
+    let l:file = split(a:line)[0]
+    silent execute "!mpc add " . l:file
 endfunction
 
 function! s:Song(title)
     call fzf#run(fzf#wrap(
     \   {'source': 'mpc search -f "%file% %artist% - %title% (%album%)" title "' . a:title . '" | grep "^spotify:track"',
-    \    'sink': function('<sid>MpcAdd'),
+    \    'sink': function('s:MpcAdd'),
     \    'options': '-m --with-nth 2..' }))
 endfunction
 
 function! s:SongByArtist(artist)
     call fzf#run(fzf#wrap(
     \   {'source': 'mpc search -f "%file% %title% (%album%)" artist "' . a:artist . '" | grep "^spotify:track"',
-    \    'sink': function('<sid>MpcAdd'),
+    \    'sink': function('s:MpcAdd'),
     \    'options': '-m --with-nth 2..' }))
 endfunction
 
 function! s:AlbumByArtist(artist)
     call fzf#run(fzf#wrap(
     \   {'source': 'mpc search -f "%file% %album%" artist "' . a:artist . '" | grep "^spotify:album"',
-    \    'sink': function('<sid>MpcAdd'),
+    \    'sink': function('s:MpcAdd'),
     \    'options': '-m --with-nth 2..' }))
 endfunction
 
