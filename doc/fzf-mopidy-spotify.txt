@@ -1,0 +1,21 @@
+*fzf-mopidy-spotify.txt*  Music fuzzy-finder for Mopidy-Spotify
+
+Add music to your Mopidy playlist from Spotify with fzf-powered fuzzy-finding.
+
+Requirements:
+    This plugin requires {fzf.vim}{1} and a running {Mopidy}{2} instance with
+    {Mopidy-Spotify}{3} configured to work properly.
+
+                                         {1} https://github.com/junegunn/fzf.vim
+                                         {2} https://www.mopidy.com
+                                         {3} https://github.com/mopidy/mopidy-spotify
+
+Commands:
+    :Song {title}
+        Search for songs by {title}.
+
+    :ArtistSong {artist}
+        Search for songs by {artist}.
+
+    :AlbumByArtist {artist}
+        Search for albums by {artist}.
