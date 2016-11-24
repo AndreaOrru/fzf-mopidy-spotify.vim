@@ -1,4 +1,4 @@
-*fzf-mopidy-spotify.txt*  Music fuzzy-finder for Mopidy-Spotify
+fzf-mopidy-spotify.txt  Music fuzzy-finder for Mopidy-Spotify
 
 INTRODUCTION                                                 *fzf-mopidy-spotify*
 ===============================================================================
