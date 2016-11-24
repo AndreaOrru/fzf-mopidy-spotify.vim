@@ -1,7 +1,7 @@
 # fzf-mopidy-spotify.vim
 <a href='https://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
 
-Add music to your Mopidy playlist from Spotify with fzf-powered fuzzy-finding.
+Add Spotify music from Vim to your Mopidy playlist with fzf-powered fuzzy-finding.
 
 ## Requirements
 This plugin requires [fzf.vim](https://github.com/junegunn/fzf.vim) and a running
