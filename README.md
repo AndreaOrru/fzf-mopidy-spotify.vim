@@ -4,12 +4,12 @@
 Add music to your Mopidy playlist from Spotify with fzf-powered fuzzy-finding.
 
 ## Requirements
-This plugin requires ![fzf.vim](https://github.com/junegunn/fzf.vim) and a running
-instance of ![Mopidy](https://www.mopidy.com) with a correctly configured
-![Mopidy-Spotify](https://github.com/mopidy/mopidy-spotify) to work properly.
+This plugin requires [fzf.vim](https://github.com/junegunn/fzf.vim) and a running
+instance of [Mopidy](https://www.mopidy.com) with a correctly configured
+[Mopidy-Spotify](https://github.com/mopidy/mopidy-spotify) to work properly.
 
 ## Installation
-Using ![vim-plug](https://github.com/junegunn/vim-plug):
+Using [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
 Plug 'AndreaOrru/fzf-mopidy-spotify.vim'
 ```
