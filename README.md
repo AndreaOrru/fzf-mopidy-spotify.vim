@@ -1,5 +1,4 @@
-# fzf-mopidy-spotify.vim
-<a href='https://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
+# fzf-mopidy-spotify.vim <a href='https://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
 
 Add Spotify music from Vim to your Mopidy playlist with fzf-powered fuzzy-finding.
 ![Screencast](http://i.imgur.com/mk2d4bv.gif)
