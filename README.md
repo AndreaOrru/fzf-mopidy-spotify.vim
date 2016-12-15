@@ -20,3 +20,9 @@ Then run `:PlugInstall` to download the plugin.
 - `:Song title` Search for songs by `title`.
 - `:ArtistSong artist` Search for songs by `artist`.
 - `:Album artist` Search for albums by `artist`.
+- `:AlbumByTitle title` Search for albums by `title`.
+- `:Playlist title` Search your playlists by `title`.
+- `:SpotifyPlay` Plays current playlist
+- `:SpotifyPause` Pauses current playlist
+- `:SpotifyNext` Skips to the next song in the current playlist
+- `:SpotifyPrev` Skips to the previous song in the current playlist
