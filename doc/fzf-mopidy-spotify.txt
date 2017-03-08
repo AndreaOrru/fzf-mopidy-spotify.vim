@@ -33,16 +33,16 @@ COMMANDS                                             *fzf-mopidy-spotify-command
     Search for albums by {title}.
 
 :Playlist {title}
-    Search your playlists by title.
+    Search your playlists by {title}.
 
 :SpotifyPlay
-    Plays current playlist
+    Play current playlist
 
 :SpotifyPause
-    Pauses current playlist
+    Pause current playlist
 
 :SpotifyNext
-    Skips to the next song in the current playlist
+    Skip to the next song in the current playlist
 
 :SpotifyPrev
-    Skips to the previous song in the current playlist
+    Skip to the previous song in the current playlist
