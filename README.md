@@ -4,7 +4,8 @@ Add Spotify music from Vim to your Mopidy playlist with fzf-powered fuzzy-findin
 ![Screencast](http://i.imgur.com/mk2d4bv.gif)
 
 ## Requirements
-This plugin requires [fzf.vim](https://github.com/junegunn/fzf.vim) and a running
+This plugin requires [fzf.vim](https://github.com/junegunn/fzf.vim),
+[mpc](http://www.musicpd.org/clients/mpc/), and a running
 instance of [Mopidy](https://www.mopidy.com) with a correctly configured
 [Mopidy-Spotify](https://github.com/mopidy/mopidy-spotify) to work properly.
 
@@ -19,3 +20,9 @@ Then run `:PlugInstall` to download the plugin.
 - `:Song title` Search for songs by `title`.
 - `:ArtistSong artist` Search for songs by `artist`.
 - `:Album artist` Search for albums by `artist`.
+- `:AlbumByTitle title` Search for albums by `title`.
+- `:Playlist title` Search your playlists by `title`.
+- `:SpotifyPlay` Plays current playlist
+- `:SpotifyPause` Pauses current playlist
+- `:SpotifyNext` Skips to the next song in the current playlist
+- `:SpotifyPrev` Skips to the previous song in the current playlist
